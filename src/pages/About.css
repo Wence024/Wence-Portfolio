@@ -1,0 +1,43 @@
+.about {
+  min-height: 80vh;
+}
+
+.about h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.about p {
+  font-size: 1.25rem;
+  color: #a0a0a0;
+  max-width: 700px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.skill-tag {
+  background-color: #1a1a1a;
+  border: 1px solid rgba(102, 126, 234, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #a0a0a0;
+  transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+  border-color: #667eea;
+  color: #ffffff;
+}
